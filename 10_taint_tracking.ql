@@ -32,7 +32,6 @@ class Config extends TaintTracking::Configuration {
         fc.getArgument(2) = sink.asExpr() and
         not fc.getArgument(2).isConstant()
     )
-
   }
 }
 
